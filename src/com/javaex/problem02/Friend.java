@@ -1,3 +1,4 @@
+
 package com.javaex.problem02;
 
 public class Friend {
