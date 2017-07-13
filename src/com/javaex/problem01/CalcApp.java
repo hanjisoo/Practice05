@@ -24,7 +24,14 @@ public class CalcApp {
     			c.calculate();
     			//Add(s[0],s[2]);
     		}else if(s[1].equals("-")) {
-    			
+    			Sub c=new Sub(s[0],s[2]);
+    			c.claculate();
+    		}else if(s[1].equals("*")) {
+    			Add c=new Add(s[0],s[2]);
+    			System.out.println(c.getA()*c.getB());
+    		}else if(s[1].equals("/")) {
+    			Div c=new Div(s[0],s[2]);
+    			c.claculate();
     		}
     		
     		System.out.println();
