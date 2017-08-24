@@ -21,6 +21,7 @@ public class GoodsApp {
 			good.setPrice(data[1]);
 			good.setCount(data[2]);
 			goods.add(good);
+			
 		}
 		
 

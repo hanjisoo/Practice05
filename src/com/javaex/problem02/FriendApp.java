@@ -24,7 +24,6 @@ public class FriendApp {
             Friend friend = new Friend();
             friend.setName(data[0]);
             friend.setHp(data[1]);
-            
             friend.setSchool(data[2]);
 
             // 배열에 추가하기
